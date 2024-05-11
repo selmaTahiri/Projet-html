@@ -1,0 +1,75 @@
+*{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+
+body {  
+    background-image: url("https://i.pinimg.com/564x/84/77/4d/84774d8fd3133f33007a05afbfd1441b.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+header {
+    
+    background-color: #237e40;
+    height:55px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+   }
+
+   ul{
+    display: flex;
+    gap: 10px;
+   }
+
+   li{
+    list-style: none;
+   }
+
+   a{
+    color: #000;
+    text-decoration:none;
+   }
+
+  main{
+    width: 100%;
+    
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    border: solid 3px rebeccapurple;
+
+  }
+   
+
+.s_about{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    width: 50%;
+
+}
+
+.s_work{
+  
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+
+}
+
+.s_resume{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    width: 50%;
+}
+
+.s_contact{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+    width: 50%;
+}
